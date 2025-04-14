@@ -4,6 +4,9 @@ body{
     background-color: #323232;
     font-family: "DM Mono", sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: "DM Mono", sans-serif;
+}
 p{
     font-family: "Urbanist", sans-serif;
 }
@@ -16,4 +19,16 @@ a:hover{
 }
 section{
     color: #fff;
+}
+.skill-container{
+    height: 55px;
+    width: 50px;
+}
+@keyframes skills{
+    from{
+        
+    }
+    to{
+
+    }
 }
