@@ -24,11 +24,20 @@ section{
     height: 55px;
     width: 50px;
 }
-@keyframes skills{
-    from{
-        
-    }
-    to{
+.skills-moves {
+    animation-name: move-right-to-left;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    width: max-content;
+    flex-wrap: wrap;
+}
 
+@keyframes move-right-to-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
     }
 }
