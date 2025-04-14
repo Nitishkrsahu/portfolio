@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0px 20px;
     padding: 0;
     background-color: #323232;
     font-family: "DM Mono", sans-serif;
@@ -19,6 +19,7 @@ a:hover{
 }
 section{
     color: #fff;
+    background-color: #272730;
 }
 .skill-container{
     height: 55px;
